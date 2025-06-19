@@ -1,3 +1,4 @@
+import moment from "moment";
 import logo from "../assets/logo.png"
 
 const Hader = () => {
@@ -8,7 +9,7 @@ const Hader = () => {
             </div>
 
         <h2 className="text-gray-500">Journalism without Fear or Favour</h2>
-
+        <p>{moment().format('MMMM Do YYYY')}</p>
         </div>
     );
 };

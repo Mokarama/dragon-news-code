@@ -8,8 +8,8 @@ const Hader = () => {
                 <img className="w-[300px]" src={logo} alt="" />
             </div>
 
-        <h2 className="text-gray-500">Journalism without Fear or Favour</h2>
-        <p>{moment().format('MMMM Do YYYY')}</p>
+        <h2 className="text-gray-500 text-xl ">Journalism without Fear or Favour</h2>
+        <p>{moment().format('dddd MMMM Do YYYY')}</p>
         </div>
     );
 };

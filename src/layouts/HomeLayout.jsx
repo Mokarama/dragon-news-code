@@ -1,19 +1,20 @@
-import React from 'react';
-import Hader from '../components/Hader';
+
+import Hader from '../components/Header';
 import LatestNews from '../components/LatestNews';
 import Navbar from '../components/Navbar';
 import LeftNavbar from '../components/layout-component/LeftNavbar';
 import RighNavbar from '../components/layout-component/RighNavbar';
+import Header from '../components/Header';
 
 const HomeLayout = () => {
     return (
        <div className='poppins'>
-         <hader>
-            <Hader></Hader>
+         <header>
+            <Header></Header>
             <section className='w-11/12 mx-auto'>
                <LatestNews></LatestNews>
             </section>
-         </hader>
+         </header>
 
          <nav className='w-11/12 mx-autopy-4'>
             <Navbar></Navbar>

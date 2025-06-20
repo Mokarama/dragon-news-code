@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Marquee from 'react-fast-marquee';
 import { Link } from 'react-router-dom';
 
@@ -16,6 +16,7 @@ const LatestNews = () => {
 
                    <Link to="/news">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis officiis atque necessitatibus quas rerum dolor inventore! Ratione, excepturi voluptates.</Link>
             </Marquee>
+
         </div>
     );
 };

@@ -1,17 +1,20 @@
 import moment from "moment";
-import logo from "../assets/logo.png"
+import logo from "../assets/logo.png";
 
-const Hader = () => {
+
+const Header = () => {
     return (
-        <div className="flex flex-col justify-center items-center gap-2 py-2">
+        <div>
+         <div className="flex flex-col justify-center items-center gap-2 py-2">
             <div className="logo">
                 <img className="w-[300px]" src={logo} alt="" />
-            </div>
+        </div>
 
         <h2 className="text-gray-500 text-xl ">Journalism without Fear or Favour</h2>
         <p>{moment().format('dddd MMMM Do YYYY')}</p>
         </div>
+        </div>
     );
 };
 
-export default Hader;
+export default Header;
